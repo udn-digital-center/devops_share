@@ -14,6 +14,7 @@
 - Docker Desktop  [download](https://www.docker.com/get-started) 
 
 ## 教學步驟 ##
+- 一次搭建express js + mysql + vue專案
 
 
 
