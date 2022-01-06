@@ -13,7 +13,7 @@
 ---
 
 ## 準備軟體 ##
-- HeigiSQL  [downliad](https://www.heidisql.com/) 
+- HeigiSQL  [download](https://www.heidisql.com/) 
 
 ## 教學步驟 ##
 - 安裝mysql

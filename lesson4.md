@@ -11,7 +11,7 @@
 ---
 
 ## 準備軟體 ##
-- Docker Desktop  [downliad](https://www.docker.com/get-started) 
+- Docker Desktop  [download](https://www.docker.com/get-started) 
 
 ## 教學步驟 ##
 

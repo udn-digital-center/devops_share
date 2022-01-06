@@ -13,7 +13,7 @@
 ---
 
 ## 準備軟體 ##
-- putty  [downliad](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 
+- putty  [download](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 
 - ftp [download](https://filezilla-project.org/)
 
 ## 教學步驟 ##

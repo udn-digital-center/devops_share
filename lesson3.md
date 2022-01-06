@@ -11,7 +11,7 @@
 ---
 
 ## 準備軟體 ##
-- HeigiSQL  [downliad](https://www.heidisql.com/) 
+- HeigiSQL  [download](https://www.heidisql.com/) 
 
 ## 教學步驟 ##
 - 裝express js 按照官網步驟走一次 [link](https://expressjs.com/zh-tw/starter/installing.html)
