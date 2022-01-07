@@ -1,0 +1,26 @@
+version: "3"
+services:
+  expressjs:
+    build:
+      context: ./expressjs
+      dockerfile: Dockerfile
+    ports:
+        - 3000:3000
+    volumes: 
+        - ./expressjs:/var/lib/mysql
+
+  mysql:
+          image: mysql:5.6
+          ports:
+          - 3306:3306
+          # volumes: 
+          # - ./data:/var/lib/mysql
+          environment:
+              MYSQL_ROOT_PASSWORD: 123456
+          volumes: 
+          - ./mysql/sqls:/docker-entrypoint-initdb.d
+          deploy:
+              resources:
+                limits:
+                  cpus: '0.50'
+                  memory: 500M
