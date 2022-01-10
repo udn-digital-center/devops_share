@@ -16,9 +16,16 @@
 ## 教學步驟 ##
 - 開一個docker-compose.yml
     ```
-    version: "3"
+    version: "3.8"
+
+    networks:
+    app-tier:
+        driver: bridge
+
     services:
     expressjs:
+        depends_on:
+        - mysql
         build:
         context: ./expressjs
         dockerfile: Dockerfile
