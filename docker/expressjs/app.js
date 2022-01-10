@@ -30,8 +30,8 @@ var mysql = require('mysql');//引入資料庫驅動模組
 // 連線資料庫的配置
 var connection = mysql.createConnection({
   // 主機名稱，一般是本機
-//   host: '172.17.0.1',
-  host: 'localhost',
+//   host: '172.23.0.2',
+  host: 'mysql',
   // 資料庫的埠號，如果不設定，預設是3306
   port: '3306',
   // 建立資料庫時設定使用者名稱
