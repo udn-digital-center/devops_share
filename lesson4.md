@@ -70,6 +70,10 @@
    ``` 
 - 然後發現無法連線到localhost的mysql
 - 解決解決方法是，要找到mysql docker的ip，這樣expressjs才能連線
+   ```
+   docker exec -it <container name> /bin/bash
+   cat /etc/hosts
+   ``` 
 - 但這樣還是很麻煩，有沒有，隨開即用的方法，這時候就要用docker-compose來整合，可以省去網外的連線問題，全部都包在一包就是網內互聯
 
 
