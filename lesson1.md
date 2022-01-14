@@ -13,12 +13,15 @@
 ---
 
 ## 準備軟體 ##
-- putty  [download](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 
+- PC 請用 putty  [download](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) <br>
+MAC 請用終端產生KEY和操作即可
 - ftp [download](https://filezilla-project.org/)
 
 ## 教學步驟 ##
 - 進入GCP管理介面，Compute Engine(VM)
-- 開啟機器設定
+- 開啟機器設定-
+- PC連線方式用putty比較方便<br>
+MAC連線方式，於終端下 ssh -i <key路徑> <帳號>@<連線IP>
 - 從面板中的，SSH功能進入，確認版本
     ```
     uname -a
