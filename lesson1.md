@@ -21,6 +21,7 @@ MAC 請用終端產生KEY和操作即可
 - 進入GCP管理介面，Compute Engine(VM)
 - 開啟機器設定-
 - PC連線方式用putty比較方便<br>
+MAC 產生公私鑰 ssh-keygen<br>
 MAC連線方式，於終端下 ssh -i <key路徑> <帳號>@<連線IP>
 - 從面板中的，SSH功能進入，確認版本
     ```
