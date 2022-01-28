@@ -65,9 +65,13 @@
     CMD node app.js
     ```
    ```
-   docker build -t expressjs .
+   docker build -t expressjs .  <-注意結尾有個點唷，他是路徑的意思
    docker run -p 3000:3000 --name expressjs -d expressjs
+   docker run -p 3000:3000 -v <本地端路徑>:<doeker內workdir> --name expressjs -d expressjs  
    ``` 
+   > -d 背景執行<br> 
+   -v 把docker內的資料映射出來volunme的意思<br>
+   -p <外部要開的port>:<docker內部要開的port>
 - 然後發現無法連線到localhost的mysql
 - 解決解決方法是，要找到mysql docker的ip，這樣expressjs才能連線
    ```

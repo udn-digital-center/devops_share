@@ -37,7 +37,6 @@
 ---
 - 用TCP的方式連線
 - 關閉VM
-- 把防火牆(3306 port)加入VM
 - 重啟VM
 - 觀察 3306 port是否對外了
     ```
@@ -47,7 +46,8 @@
 - 將對外連線改為 0.0.0.0
     ```
     /etc/my.cnf  修改 127.0.0.1 to  0.0.0.0
-    sudo service restart mysql 
+    sudo service mysql restart  
+    *一訂要重啟* 
     ```    
 -   用TCP的方式連線可聯上但，會出現IP被限制，原因是當初設定user帳戶連線來源為localhost,進入user table,改為％
 ---
