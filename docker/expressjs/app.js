@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World!來中文')
 })
 
 app.listen(port, () => {
@@ -30,8 +30,9 @@ var mysql = require('mysql');//引入資料庫驅動模組
 // 連線資料庫的配置
 var connection = mysql.createConnection({
   // 主機名稱，一般是本機
-//   host: '172.23.0.2',
-  host: 'mysql',
+  host: '172.17.0.3',
+  // host: '127.0.0.1',
+  // host: 'mysql',
   // 資料庫的埠號，如果不設定，預設是3306
   port: '3306',
   // 建立資料庫時設定使用者名稱

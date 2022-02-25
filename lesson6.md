@@ -16,7 +16,9 @@
     ```
     sudo apt-get install docker.io
     ```
-- 可以透過GIT或是FTP，將專案下載
+- 雲主機預設可能docker docker-compose會裝比較低階的版本，如有需做升級的動作  [link](https://docs.docker.com/compose/install/)
+
+- 可以透過GIT或是SFTP，將專案傳到雲主機上
     ```
     git clone  https://github.com/udn-digital-center/devops_share.git
     ```
@@ -24,7 +26,8 @@
     ```
     docker-compose up -d
     docker-compose up --build -d
-    ```    
+    ```   
+    
 - 修改nginx，反向代理的路徑
 ----
 - 證明一些事情
